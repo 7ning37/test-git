@@ -18,7 +18,7 @@
                     "value": "utf-8"
                 }
             ],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "D:\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
