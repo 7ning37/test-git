@@ -1,4 +1,5 @@
 #include <iostream>
+#include<iomanip>
 using namespace std;
 
 class Circle
@@ -6,7 +7,7 @@ class Circle
 private:
     int radius;
     int height;
-    int PI=3.14;
+    const double PI=3.14;
     double S;
 public:
 void set_raadius(int my_radius){
@@ -26,12 +27,7 @@ void get_height(){
 }
 
 void inputS(int radius){
-    int PI=3.14;
     double S=2*PI*radius*height+2*PI*radius*radius;
-    cout<<"mianji="<<S<<endl;
-}
-
-void outputS(){
     cout<<"surface S="<<S<<endl;
 }
 
@@ -49,6 +45,5 @@ int main(){
     c1.get_radius();
     c1.get_height();
     c1.inputS(x);
-    c1.outputS();
     return 0;
 }
