@@ -329,9 +329,9 @@ void modifybook()
         if (book.getbook_number() == booknumber)
         {
             found = true;
-            cout << "\n当前图书信息：" << endl;
+            cout << "\n当前图书信息:" << endl;
             book.displayBookinformation();
-            cout << "\n请输入新的信息（直接回车跳过修改）：" << endl;
+            cout << "\n请输入新的信息(直接回车跳过修改):" << endl;
             string newname, newauthor, newpublisher;
             int newyear;
             double newprice;
@@ -354,7 +354,7 @@ void modifybook()
             {
                 book.setbook_publisher(newpublisher);
             }
-            cout << "新出版年（输入0跳过）：";
+            cout << "新出版年(输入0跳过):";
             string yearInput;
             getline(cin, yearInput);
             if (!yearInput.size() == 0)
@@ -372,7 +372,7 @@ void modifybook()
                     cout << "年份输入无效，跳过修改。" << endl;
                 }
             }
-            cout << "新价格（输入0跳过）：";
+            cout << "新价格(输入0跳过):";
             string priceInput;
             getline(cin, priceInput);
             if (!priceInput.size() == 0)
