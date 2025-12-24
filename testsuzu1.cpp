@@ -21,4 +21,4 @@ int main(){
     s1_.diplay();
     s.diplay();
     return 0;
-}friend void poin::display()
+}
