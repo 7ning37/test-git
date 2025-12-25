@@ -13,7 +13,7 @@ int main()
     {
         a += num;
         num *= 10;
-        b = i * a;
+        b = i * a;//111*i;
         sum += b;
     }
     cout << "sum=" << sum;
